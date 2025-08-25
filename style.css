@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(88, 157, 248);
+    font: normal 10px arial;
+    color: white;
+}
+h1 {
+    text-align: center;
+}
+button.change-type {
+    text-align: center;
+    width: 100px;
+    height: 55px;
+    border-radius: 10px;
+    border-color: transparent;
+    margin-bottom: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+section#display-bar {
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 20cm;
+    margin-left: -10px;
+    width: 140px;
+    margin-top: -50px;
+}
+div#button-display {
+    text-align: center;
+    width: 100px;
+    margin: 10px;
+    height: flex;
+    margin-top: -18cm;
+} 
+button#default {
+    background-color: rgb(69, 178, 255);
+}
+button#atoms {
+    background-color: rgb(69, 216, 69);
+}
+button#velocity {
+    background-color: rgb(250, 54, 54);
+}
+button#money {
+    background-color: rgb(239, 239, 67);
+}
+button#proporcionality {
+    background-color: orange;
+}
+button#function-plot {
+    background-color: rgb(255, 80, 109);
+}
+button#mol-calc {
+    background-color: rgb(55, 240, 182);
+}
+div#calc-area {
+    background-color: aliceblue;
+    height: 10cm;
+    width: 10cm;
+}

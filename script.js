@@ -1,0 +1,1 @@
+const buttons = window.document.getElementsByClassName("change-type")
