@@ -78,3 +78,23 @@ div#calc-area {
     x: 20;
     y:10;
 }
+#calc-area {
+    background-color: white;
+    display: grid;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+.calculator {
+    background-color: rgb(97, 97, 97);
+    border: none;
+    border-radius: 4px;
+    margin: 3px;
+    height: 40px;
+    width: 40px;
+}
+.calculator:hover {
+    background-color: rgb(67, 67, 67)
+}

@@ -13,8 +13,5 @@ function set_atom() {
 
 // For the velocity one:
 function set_velocity() {
-    main_area.style.borderRadius = "20px"
-    main_area.style.backgroundColor = "white"
-    main_area.style.height = "20px"
-    main_area.style.width = "20px"
+
 }
