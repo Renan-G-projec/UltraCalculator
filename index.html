@@ -8,6 +8,7 @@
     <link rel="icon" href="">
 </head>
 <body>
+    <div id="background-page">
     <header>
         <h1>UltraCalculator</h1>
     </header>
@@ -23,27 +24,29 @@
     </div>
 
         <div id="calc-area" class="main">
-            <button class="calculator">C</button>
-            <button class="calculator">&leftarrow;</button>
-            <button class="calculator">/</button>
-            <button class="calculator">*</button>
-            <button class="calculator">7</button>
-            <button class="calculator">8</button>
-            <button class="calculator">9</button>
-            <button class="calculator">+</button>
-            <button class="calculator">4</button>
-            <button class="calculator">5</button>
-            <button class="calculator">6</button>
-            <button class="calculator">-</button>
-            <button class="calculator">1</button>
-            <button class="calculator">2</button>
-            <button class="calculator">3</button>
-            <button class="calculator" id="equal-btn">=</button>
-            <button class="calculator" id="zero-btn">0</button>
+            <p id="result"></p>
+            <button class="calculator" onclick="clear()">C</button>
+            <button class="calculator" onclick="erase()">&leftarrow;</button>
+            <button class="calculator" onclick="insert('/')">/</button>
+            <button class="calculator" onclick="insert('*')">*</button>
+            <button class="calculator" onclick="insert('7')">7</button>
+            <button class="calculator" onclick="insert('8')">8</button>
+            <button class="calculator" onclick="insert('9')">9</button>
+            <button class="calculator" onclick="insert('+')">+</button>
+            <button class="calculator" onclick="insert('4')">4</button>
+            <button class="calculator" onclick="insert('5')">5</button>
+            <button class="calculator" onclick="insert('6')">6</button>
+            <button class="calculator" onclick="insert('-')" id="minus">-</button>
+            <button class="calculator" onclick="insert('1')">1</button>
+            <button class="calculator" onclick="insert('2')">2</button>
+            <button class="calculator" onclick="insert('3')">3</button>
+            <button class="calculator" id="equal-btn" onclick="evaluate()">=</button>
+            <button class="calculator" id="zero-btn" onclick="insert('0')">0</button>
             <button class="calculator">.</button>
 
         </div>
 
     <script src="script.js"></script>
+    </div>
 </body>
 </html>
