@@ -1,7 +1,3 @@
-// Makes the default calculator be showed on the screen when the user press the default button
-function set_default() {
-
-}
 // Basic Calculator functions
 function insert(char) {
     let display = document.getElementById("result")
@@ -11,18 +7,19 @@ function insert(char) {
         display.innerText += char
     }
 }
-function evaluate() {
-    let calc = document.getElementById("result")
-    let operations = calc.innerText
-    calc.innerText = eval(operations)
+function calculate() {
+    const display = window.document.getElementById("result")
+    try {
+        display.innerText = eval(display.innerText)
+    } catch {
+        alert("[ERROR] Check your input and try again.")
+    }
 }
-
-// For the Atom calculator:
-function set_atom() {
-
+function clean() {
+    const display = window.document.getElementById("result")
+    display.innerText = ''
 }
-
-// For the velocity one:
-function set_velocity() {
-
+function erase() {
+    const display = window.document.getElementById("result")
+    display.innerText = display.innerText.slice(0, display.innerText.length-1)
 }
