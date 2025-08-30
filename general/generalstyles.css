@@ -1,1 +1,74 @@
-
+body {
+    font: normal 10px arial;
+    color: white;
+}
+h1 {
+    text-align: center;
+}
+button.change-type {
+    text-align: center;
+    width: 100px;
+    height: 55px;
+    border-radius: 10px;
+    border-color: transparent;
+    margin-bottom: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    cursor: pointer;
+}
+section#display-bar {
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 20cm;
+    margin-left: -10px;
+    width: 140px;
+    margin-top: -50px;
+}
+div#button-display {
+    text-align: center;
+    width: 100px;
+    margin: 10px;
+    height: flex;
+    margin-top: -18cm;
+} 
+button#default {
+    background-color: rgb(69, 178, 255);
+}
+button#default:hover {
+    background-color: rgb(52, 137, 198);
+}
+button#atoms {
+    background-color: rgb(69, 216, 69);
+}
+button#atoms:hover {
+    background-color: rgb(49, 195, 49);
+}
+button#velocity {
+    background-color: rgb(250, 54, 54);
+}
+button#velocity:hover {
+    background-color: rgb(187, 29, 29);
+}
+button#money {
+    background-color: rgb(239, 239, 67);
+}
+button#money:hover {
+    background-color: rgb(154, 154, 26);
+}
+button#proporcionality {
+    background-color: orange;
+}
+button#proporcionality:hover {
+    background-color: rgb(196, 131, 11);
+}
+button#function-plot {
+    background-color: rgb(255, 80, 109);
+}
+button#function-plot:hover {
+    background-color: rgb(180, 53, 74);
+}
+button#mol-calc {
+    background-color: rgb(55, 240, 182);
+}
+button#mol-calc:hover {
+    background-color: rgb(40, 172, 130);
+}
