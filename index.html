@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UltraCalculator</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="general/generalstyles.css">
     <link rel="icon" href="images/Icon.png">
 </head>
 <body>
@@ -14,8 +15,8 @@
     <section id="display-bar"> </section>
     <div id="button-display">
         <button id="default" class="change-type">Default</button>
-        <button id="atoms" class="change-type">Atoms</button>
-        <button id="velocity" class="change-type" onclick="set_velocity()">Velocity (physics)</button>
+        <a href="atomcalc/index.html"><button id="atoms" class="change-type">Atoms</button></a>
+        <button id="velocity" class="change-type">Velocity (physics)</button>
         <button id="money" class="change-type">Exchange (money)</button>
         <button id="proporcionality" class="change-type">Proporcionality</button>
         <button id="function-plot" class="change-type">Function plot</button>
@@ -24,7 +25,7 @@
 
         <div id="calc-area" class="main">
             <p id="result"></p>
-            <button class="calculator" onclick="clean()">Ca</button>
+            <button class="calculator" onclick="clean()">C</button>
             <button class="calculator" onclick="erase()">&leftarrow;</button>
             <button class="calculator" onclick="insert('/')">/</button>
             <button class="calculator" onclick="insert('*')">*</button>
@@ -41,7 +42,7 @@
             <button class="calculator" onclick="insert('3')">3</button>
             <button class="calculator" id="equal-btn" onclick="calculate()">=</button>
             <button class="calculator" id="zero-btn" onclick="insert('0')">0</button>
-            <button class="calculator">.</button>
+            <button class="calculator" onclick="insert('.')">.</button>
     <script src="script.js"></script>
     </div>
 </body>
