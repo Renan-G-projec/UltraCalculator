@@ -1,6 +1,7 @@
 body {
     font: normal 10px arial;
     color: white;
+    height: 100vh;
 }
 h1 {
     text-align: center;
