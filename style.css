@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(69, 178, 255);
+    background-image: linear-gradient(45deg, black, rgb(69, 178, 255));
 }
 #calc-area {
     background-color: rgb(0, 0, 0);
