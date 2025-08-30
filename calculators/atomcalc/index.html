@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UltraCalculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../general/generalstyles.css">
+    <link rel="icon" href="../../images/Icon.png">
+</head>
+<body>
+    <h1>Atoms Calculator</h1>
+    <section id="display-bar"> </section>
+    <div id="button-display">
+        <a href="../../index.html"><button id="default" class="change-type">Default</button></a>
+        <button id="atoms" class="change-type">Atoms</button>
+        <button id="velocity" class="change-type">Velocity (physics)</button>
+        <button id="money" class="change-type">Exchange (money)</button>
+        <button id="proporcionality" class="change-type">Proporcionality</button>
+        <button id="function-plot" class="change-type">Function plot</button>
+        <button id="mol-calc" class="change-type">Mol calculator</button>
+    </div>
 
+    <div id="section-atom">
+        <p>Write a pure Element of the periodic table<input type="text" title="Select a Pure Element" id="element"></p>
+        <button onclick="calculate()" class="atom-button">Calculate</button>
+        <footer>
+            <p>like "gold", "carbon" etc.</p>
+        </footer>
+        <section>
+            <h1 id="element-type"></h1>
+            <p id="result-numeric"></p>
+            <p id="result-notation"></p>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
